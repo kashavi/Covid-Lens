@@ -1,0 +1,26 @@
+{
+  "name": "covid-lens",
+  "version": "1.0.0",
+  "description": "A website providing all the info you need about the novel Corona Virus.",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kashavi/Covid-Lens.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kashavi/Covid-Lens/issues"
+  },
+  "homepage": "https://github.com/kashavi/Covid-Lens#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "sequelize": "^6.3.5",
+    "sqlite3": "^5.0.0"
+  }
+}
