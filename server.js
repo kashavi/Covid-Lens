@@ -23,6 +23,6 @@ app.post('/query',(req,res)=>{
     })
 })
 
-app.listen(4333,()=>{
+app.listen(process.env.PORT || 4333,()=>{
     console.log('Server started at http://localhost:4333')
 })
